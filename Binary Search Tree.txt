@@ -1,0 +1,36 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamaları sıralanmıştır.
+
+Root=7 
+
+Tüm rakamlara bakalım.
+
+Root'tan büyük rakamlar sağ,küçük rakamlar sol tarafına yazılır.
+
+5, Root'un solunda,
+
+1, 7 ve 5'in solunda,
+
+8, 7'nin sağında,
+
+3, 7 ve 5'in solunda,1'in sağında,
+
+6, 7'nin solunda 5'in sağında,
+
+0, 7,5 ve 1'in solunda,
+
+9, 7 ve 8 'in sağında,
+
+4, 7 ve 5 'in solunda, 1 ve 3'ün sağında,
+
+2, 7 ve 5'in solunda, 1'in solunda,3'ün sağında olacak şekilde sıraladığımızda ise
+
+Binary Search Tree şöyle olmaktadır.
+                      7
+                     / \
+                    5   8
+                   / \   \
+                  1   6   9
+                 / \
+                0  3
+                  / \
+                 2   4
